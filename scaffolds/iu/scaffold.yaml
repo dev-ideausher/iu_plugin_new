@@ -1,0 +1,42 @@
+name: iu
+description: A scaffold example with files to copy.
+author: Ayush Kumar <eliasakeleven@gmail.com>
+
+copy_files: true
+
+structure:
+  - generated:
+  - app:
+      - components
+      - constants
+      - services
+      - modules:
+          - home:
+              -bindings
+              -controllers
+              -views
+              -widgets
+          - splash:
+              -bindings
+              -controllers
+              views
+
+test_structure:
+
+dependencies:
+  cupertino_icons:
+  get:
+  get_storage:
+  dio:
+  google_fonts:
+  new_version_plus:
+  lottie:
+  flutter_svg:
+  encrypt:
+  tuple:
+  crypto:
+  cached_network_image:
+  url_launcher:
+
+dev_dependencies:
+  build_runner:

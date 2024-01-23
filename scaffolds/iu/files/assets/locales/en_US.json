@@ -1,0 +1,142 @@
+{
+  "app_name": "Banc IT",
+  "commons": {
+    "continue": "Continue",
+    "next": "Next",
+    "skip": "Skip",
+    "done": "Done",
+    "cancel": "Cancel",
+    "save": "Save",
+    "close": "Close",
+    "back": "Back",
+    "yes": "Yes",
+    "no": "No",
+    "okay": "Okay",
+    "error": "Error",
+    "more": "More",
+    "seeAll": "See all"
+  },
+  "walkthrough": {
+    "walkthrough1Title": "Make faster fiat transaction with us",
+    "walkthrough1Description": "Our platform will help you make your transaction faster and safer",
+    "walkthrough2Title": "We take care of your money",
+    "walkthrough2Description": "Our cyber security team takes care of security, and we follow strict guidelines that help us maintain the privacy of our users data.",
+    "walkthrough3Title": "Lots of exciting offers and rewards",
+    "walkthrough3Description": "On every transaction you make we give you starch card which can be used to get rewards."
+  },
+  "login": {
+    "phoneNumber": "Phone Number",
+    "dontHaveAnAccount": "Don't have an account?"
+  },
+  "otp": {
+    "enterOTP": "Enter OTP",
+    "weHaveSharedOTP": "We have shared OTP to",
+    "didntReceiveCode": "Didn't receive the code?",
+    "resend": "Resend",
+    "verify": "Verify"
+  },
+  "change": "Change",
+  "signIn": "Sign In",
+  "signUp": {
+    "title": "Sign Up",
+    "referral": "Enter Referral Code (if any)",
+    "bySigningUp": "By signing up you agree to the",
+    "termsAndConditions": "Terms & Conditions",
+    "andFor": " and for ",
+    "privacyPolicy": "Privacy Policy",
+    "ofBancIt": " of Banc IT",
+    "alreadyHaveAnAccount": "Already have an account?"
+  },
+  "or": "or",
+  "verification": {
+    "startVerification": "Start Verification",
+    "instructions": "Instructions",
+    "instruction1": "Be ready with Passport photo, Driver’s License, and other Government issue Documentation to proof identity for KYC services",
+    "instruction2": "Make sure no flash light is reflected and it is clear",
+    "faceVerification": "Face Verification",
+    "faceVerificationInstruction": "Please make sure that no shadows is there in face. It should be clear enough for identification.",
+    "captureNow": "Capture Now",
+    "retake": "Retake",
+    "upload": "Upload",
+    "preview": "Preview",
+    "document": "Document",
+    "documentInstruction": "Now place your phone directly on top of your passport and take a picture.",
+    "documentInstruction2": "Check the photo, submit or scan again if there is something missing.",
+    "scanNow": "Scan Now",
+    "scanAgain": "Scan Again",
+    "uploadSuccessful": "Upload Successful",
+    "continue": "Continue"
+  },
+  "add": "Add",
+  "illUpdateLater": "I'll update later",
+  "connect": "Connect",
+  "bankDetails": {
+    "cardDetails": "Card Details",
+    "cardHolderName": "Card Holder Name",
+    "cardNumber": "Card Number",
+    "expiryDate": "Expiry Date",
+    "cvv": "CVV",
+    "addBankAccount": "Add Bank Account",
+    "accountName": "Account Name",
+    "accountNumber": "Account Number",
+    "phoneNumber": "Phone Number",
+    "connectCryptoAccount": "Connect Crypto Account",
+    "cryptoInstruction": "Please select the wallet & click connect to connect your Crypto wallet to BancIt. By connecting wallet you can easily make payments in the app."
+  },
+  "fingerprintAuth": {
+    "title": "Fingerprint Auth",
+    "description": "You can use fingerprint authentication to access your BancIt account.",
+    "instructions": "Touch the fingerprint sensor",
+    "button": "Set Fingerprint",
+    "skip": "Skip"
+  },
+  "faceAuth": {
+    "title": "Face Auth",
+    "description": "You can use face authentication to access your BancIt account.",
+    "scan": "Scan",
+    "skip": "Skip",
+    "instructions2": "Point your face right at the box, then take a photo",
+    "instructions": "Center your face"
+  },
+  "pin": {
+    "title": "Set PIN",
+    "description": "You can use fingerprint authentication to access your BancIt account."
+  },
+  "accountVerified": {
+    "title": "Account Verified",
+    "description": "Your account has been verified succesfully, now let’s enjoy Paypay features!"
+  },
+  "bancCoin": "BancCoin",
+  "referralDialog": {
+    "youReceived": "You received",
+    "congratulations": "Congratulations!",
+    "throughtReferralCode": "through referral code. "
+  },
+  "dashoard": {
+    "home": "Home",
+    "store": "Store",
+    "activity": "Activity",
+    "profile": "Profile"
+  },
+  "home": {
+    "hi": "Hi",
+    "wallet": "Wallet",
+    "crypto": "Crypto",
+    "walletBalance": "Wallet Balance",
+    "consumption": "Consumption",
+    "services": "Services",
+    "scanNPAY": "Scan & Pay",
+    "payContact": "Pay Contact",
+    "addFund": "Add Fund",
+    "withdraw": "Withdraw",
+    "Recharge": "Recharge",
+    "giftCard": "Gift Cards",
+    "billsUtility": "Bills/Utility",
+    "wire": "Wire",
+    "guide1": "Pay your contact with",
+    "feature": "Feature",
+    "recentTransaction": "Recent Transactions",
+    "store": "Store",
+    "moreServices": "More Services"
+  }
+}
