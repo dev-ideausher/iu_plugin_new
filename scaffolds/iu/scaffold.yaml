@@ -5,7 +5,7 @@ author: Ayush Kumar <eliasakeleven@gmail.com>
 copy_files: true
 
 structure:
-  - generated:
+  - generated
   - app:
       - components
       - constants
