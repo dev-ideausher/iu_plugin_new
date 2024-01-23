@@ -22,6 +22,7 @@ structure:
               views
 
 test_structure:
+    - unit_test
 
 dependencies:
   cupertino_icons:
