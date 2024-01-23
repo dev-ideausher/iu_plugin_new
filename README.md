@@ -7,7 +7,7 @@ Assuming you have done all the steps mentioned [here](https://github.com/dev-ide
 installing the plugin rightaway :
 
 ```
-fast plugin add git https://github.com/dev-ideausher/iu_plugin.git
+fast plugin add git git@github.com:dev-ideausher/iu_plugin_new.git
 ```
 
 After that, you need to set the Environmental path variable:
