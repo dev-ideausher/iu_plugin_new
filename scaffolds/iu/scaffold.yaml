@@ -71,4 +71,7 @@ custom_fields:
       - assets/lottiefiles/
 
 commands:
-  chnage: "dir"
+  cli : "dart pub global activate get_cli"
+  locales : "get generate locales assets/locales"
+  get : "flutter pub get"
+  build: "flutter pub run build_runner build"
