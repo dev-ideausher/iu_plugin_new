@@ -16,10 +16,7 @@ structure:
               -controllers
               -views
               -widgets
-          - splash:
-              -bindings
-              -controllers
-              views
+          - splash
 
 test_structure:
     - unit_test
