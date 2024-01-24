@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'responsive_size.dart';
-import 'colors.dart';
-import 'text_style_util.dart';
 
+import '../services/colors.dart';
+import '../services/responsive_size.dart';
+import '../services/text_style_util.dart';
 
 class CustomButton extends StatelessWidget {
   final String title;
@@ -55,18 +55,27 @@ class CustomButton extends StatelessWidget {
             decoration: !outline
                 ? BoxDecoration(
                     // color: !disabled ? color ?? ColorUtil.kcPrimaryColor : color ?? ColorUtil.kcMediumGreyColor,
-                    borderRadius: BorderRadius.circular(borderRadius??12.kh),
+                    borderRadius: BorderRadius.circular(borderRadius ?? 12.kh),
                     gradient: linearGradient ??
-                        LinearGradient(begin: Alignment(0, 0), end: Alignment(0, 0), colors: [
-                          !disabled ? color ?? ColorUtil.kcPrimaryColor : color ?? ColorUtil.kcMediumGreyColor,
-                          !disabled ? color ?? ColorUtil.kcPrimaryColor : color ?? ColorUtil.kcMediumGreyColor
-                        ]),
+                        LinearGradient(
+                            begin: Alignment(0, 0),
+                            end: Alignment(0, 0),
+                            colors: [
+                              !disabled
+                                  ? color ?? ColorUtil(context).kPrimaryColor
+                                  : color ??
+                                      ColorUtil(context).kPrimaryGreyColor,
+                              !disabled
+                                  ? color ?? ColorUtil(context).kPrimaryColor
+                                  : color ??
+                                      ColorUtil(context).kPrimaryGreyColor,
+                            ]),
                   )
                 : BoxDecoration(
                     color: Colors.transparent,
-                    borderRadius: BorderRadius.circular(borderRadius??12.kh),
+                    borderRadius: BorderRadius.circular(borderRadius ?? 12.kh),
                     border: Border.all(
-                      color: color ?? ColorUtil.kcPrimaryColor,
+                      color: color ?? ColorUtil(context).kPrimaryColor,
                       width: 1,
                     )),
             child: !isloading
@@ -77,9 +86,11 @@ class CustomButton extends StatelessWidget {
                       if (leading != null) SizedBox(width: 5.kw),
                       Text(
                         title,
-                        style: TextStyleUtil.plusJakartaSansStyleS20W700(
-                          fontWeight: !outline ? FontWeight.bold : FontWeight.w400,
-                          color: !outline ? Colors.white : ColorUtil.kcPrimaryColor,
+                        style: TextStyleUtil.genSans400(
+                          color: !outline
+                              ? Colors.white
+                              : ColorUtil(context).kPrimaryColor,
+                          fontSize: 16.0,
                         ),
                       ),
                       if (trailing != null) SizedBox(width: 5.kw),
