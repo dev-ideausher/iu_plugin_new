@@ -71,5 +71,4 @@ custom_fields:
       - assets/lottiefiles/
 
 commands:
-  chnage: "cd sample6"
-  setup: "flutter pub get"
+  chnage: "dir"
