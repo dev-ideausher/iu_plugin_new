@@ -71,4 +71,5 @@ custom_fields:
       - assets/lottiefiles/
 
 commands:
-  auth: "flutter pub add firebase_auth && pub add flutter_facebook_auth && pub add stacked_firebase_auth && pub add firebase_core ** iu authiu"
+  chnage: "cd sample6"
+  setup: "flutter pub get"
