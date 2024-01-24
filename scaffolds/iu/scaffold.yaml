@@ -11,12 +11,8 @@ structure:
       - constants
       - services
       - modules:
-          - home:
-              -bindings
-              -controllers
-              -views
-              -widgets
           - splash
+          - home
 
 test_structure:
     - unit_test
@@ -71,7 +67,7 @@ custom_fields:
       - assets/lottiefiles/
 
 commands:
-  cli : "dart pub global activate get_cli"
+  cli : "dart pub global activate get_cli && dart pub global activate flutter_gen"
   locales : "get generate locales assets/locales"
   build: "dart run build_runner build"
 

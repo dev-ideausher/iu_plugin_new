@@ -1,9 +1,11 @@
-import 'app/modules/home/bindings/home_binding.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:@appName/app/modules/splash/bindings/splash_binding.dart';
+
 import 'app/routes/app_pages.dart';
 import 'app/services/storage.dart';
+import 'generated/locales.g.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -24,7 +26,7 @@ Future<void> main() async {
       locale: const Locale('en', 'US'),
       translationsKeys: AppTranslation.translations,
       initialRoute: AppPages.INITIAL,
-      initialBinding: HomeBinding(),
+      initialBinding: SplashBinding(),
       getPages: AppPages.routes,
     ),
   ));
