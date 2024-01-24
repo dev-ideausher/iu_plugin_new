@@ -1,7 +1,7 @@
 commands:
   auth: "flutter pub add firebase_auth && pub add flutter_facebook_auth && pub add stacked_firebase_auth && pub add firebase_core ** iu authiu"
   build: "flutter pub run build_runner build"
-  buildx: "flutter pub run build_runner build --delete-conflicting-outputs"
+  buildx: "dart run build_runner watch --delete-conflicting-outputs"
   push: "git push origin master"
   watch: "flutter pub run build_runner watch"
   refresh: "fast plugin remove --name iu && plugin add git https://github.com/dev-ideausher/iu_plugin_new.git"
