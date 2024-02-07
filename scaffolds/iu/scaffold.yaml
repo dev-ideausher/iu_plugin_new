@@ -31,10 +31,14 @@ dependencies:
   crypto:
   cached_network_image:
   url_launcher:
+  freezed:
+  retrofit:
+  chucker_flutter:
 
 dev_dependencies:
   build_runner:
   flutter_gen_runner:
+  retrofit_generator:
 
 custom_fields:
 
@@ -67,7 +71,7 @@ custom_fields:
       - assets/lottiefiles/
 
 commands:
-  cli : "dart pub global activate get_cli && dart pub global activate flutter_gen"
+#  cli : "dart pub global activate get_cli && dart pub global activate flutter_gen"
   locales : "get generate locales assets/locales"
   build: "dart run build_runner build"
 
